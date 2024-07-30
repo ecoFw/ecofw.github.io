@@ -1,0 +1,14 @@
+name: "Hawai‘i CSA Resource Hub"
+output_dir: "_site"
+navbar:
+  title: "Hawai‘i CSA Resource Hub"
+  left:
+    - text: ""
+      href: index.html
+exclude: ["CHECKLIST.md", "README", "empty.Rmd"]
+output:
+  html_document:
+    theme: journal
+#    highlight: textmate # syntax highlighting
+    # include:
+    #   after_body: footer.html
